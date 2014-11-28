@@ -13,6 +13,7 @@ use Scalar::Util qw(blessed);
 
 # Constants.
 Readonly::Array our @EXPORT_OK => qw{parse serialize};
+Readonly::Scalar our $LOG_REGEXP => qr{(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d+)\s+\[(\w+)\]\s+([^:]+):(\d+)\s+(.*)};
 Readonly::Scalar our $SPACE => q{ };
 
 # Version.
@@ -22,7 +23,7 @@ our $VERSION = 0.01;
 sub parse {
 	my $data = shift;
 	my $one;
-	if ($data =~ m/^(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d+)\s+\[(\w+)\]\s+([^:]+):(\d+)\s+(.*)$/ms) {
+	if ($data =~ m/^$LOG_REGEXP$/ms) {
 		$one = Log::FreeSWITCH::Line::Data->new(
 			'date' => $1,
 			'file' => $4,
