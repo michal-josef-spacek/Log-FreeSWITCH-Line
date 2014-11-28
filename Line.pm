@@ -1,17 +1,18 @@
 package Log::FreeSWITCH::Line;
 
 # Pragmas.
+use base qw(Exporter);
 use strict;
 use warnings;
 
 # Modules.
 use Error::Pure qw(err);
 use Log::FreeSWITCH::Line::Data;
-use Mo;
 use Readonly;
 use Scalar::Util qw(blessed);
 
 # Constants.
+Readonly::Array our @EXPORT_OK => qw{parse serialize};
 Readonly::Scalar our $SPACE => q{ };
 
 # Version.
@@ -19,7 +20,7 @@ our $VERSION = 0.01;
 
 # Parse FreeSWITCH log line.
 sub parse {
-	my ($self, $data) = @_;
+	my $data = shift;
 	my $one;
 	if ($data =~ m/^(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d+)\s+\[(\w+)\]\s+([^:]+):(\d+)\s+(.*)$/ms) {
 		$one = Log::FreeSWITCH::Line::Data->new(
@@ -40,8 +41,8 @@ sub parse {
 
 # Serialize FreeSWITCH log line.
 sub serialize {
-	my ($self, $data_o) = @_;
-	
+	my $data_o = shift;
+
 	# Check object.
 	if (! blessed($data_o) || ! $data_o->isa('Log::FreeSWITCH::Line::Data')) {
 		err "Serialize object must be 'Log::FreeSWITCH::Line::Data' object.";
