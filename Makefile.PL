@@ -11,7 +11,10 @@ author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Log-FreeSWITCH-Line';
 readme_from 'Line.pm';
+requires 'Error::Pure' => 0.18;
 requires 'Mo' => 0;
+requires 'Readonly' => 0;
+requires 'Scalar::Util' => 0;
 requires 'perl' => '5.8.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Log-FreeSWITCH-Line';

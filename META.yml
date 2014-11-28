@@ -26,7 +26,10 @@ no_index:
     - inc
     - t
 requires:
+  Error::Pure: 0.18
   Mo: 0
+  Readonly: 0
+  Scalar::Util: 0
   perl: 5.8.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Log-FreeSWITCH-Line
