@@ -22,9 +22,9 @@ our $VERSION = 0.01;
 # Parse FreeSWITCH log line.
 sub parse {
 	my $data = shift;
-	my $one;
+	my $data_o;
 	if ($data =~ m/^$LOG_REGEXP$/ms) {
-		$one = Log::FreeSWITCH::Line::Data->new(
+		$data_o = Log::FreeSWITCH::Line::Data->new(
 			'date' => $1,
 			'file' => $4,
 			'file_line' => $5,
@@ -37,7 +37,7 @@ sub parse {
 		err 'Cannot parse data.',
 			'Data', $data;
 	}
-	return $one;
+	return $data_o;
 }
 
 # Serialize FreeSWITCH log line.
