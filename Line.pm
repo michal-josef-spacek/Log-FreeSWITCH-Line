@@ -40,7 +40,7 @@ sub parse {
 	return $data_o;
 }
 
-# Serialize FreeSWITCH log line.
+# Serialize Log::FreeSWITCH::Line::Data object to FreeSWITCH log line.
 sub serialize {
 	my $data_o = shift;
 
