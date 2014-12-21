@@ -30,7 +30,6 @@ has message => (
 );
 has raw => (
 	'is' => 'ro',
-	'required' => 1,
 );
 has time => (
 	'is' => 'ro',
