@@ -29,7 +29,7 @@ has message => (
 	'is' => 'ro',
 );
 has raw => (
-	'is' => 'ro',
+	'is' => 'rw',
 );
 has time => (
 	'is' => 'ro',
