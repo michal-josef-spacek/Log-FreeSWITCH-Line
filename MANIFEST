@@ -24,6 +24,14 @@ t/Log-FreeSWITCH-Line-Data/01-version.t
 t/Log-FreeSWITCH-Line-Data/02-pod_coverage.t
 t/Log-FreeSWITCH-Line-Data/03-pod.t
 t/Log-FreeSWITCH-Line-Data/04-new.t
+t/Log-FreeSWITCH-Line-Data/05-date.t
+t/Log-FreeSWITCH-Line-Data/06-datetime_obj.t
+t/Log-FreeSWITCH-Line-Data/07-file.t
+t/Log-FreeSWITCH-Line-Data/08-file_line.t
+t/Log-FreeSWITCH-Line-Data/09-message.t
+t/Log-FreeSWITCH-Line-Data/10-raw.t
+t/Log-FreeSWITCH-Line-Data/11-time.t
+t/Log-FreeSWITCH-Line-Data/12-type.t
 t/Log-FreeSWITCH-Line/00-use.t
 t/Log-FreeSWITCH-Line/01-version.t
 t/Log-FreeSWITCH-Line/02-pod_coverage.t
