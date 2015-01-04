@@ -44,7 +44,13 @@ has type => (
 # Create DateTime object.
 sub _datetime {
 	my $self = shift;
-	require DateTime;
+	eval {
+		require DateTime;
+	};
+	if ($EVAL_ERROR) {
+		err "Cannot load 'DateTime' class.",
+			'Error', $EVAL_ERROR;
+	}
 	my ($year, $month, $day) = split m/-/ms, $self->date;
 	my ($hour, $min, $sec_mili) = split m/:/ms, $self->time;
 	my ($sec, $mili) = split m/\./ms, $sec_mili;
