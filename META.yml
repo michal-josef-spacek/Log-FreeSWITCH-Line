@@ -23,6 +23,7 @@ meta-spec:
 name: Log-FreeSWITCH-Line
 no_index:
   directory:
+    - examples
     - inc
     - t
 requires:
