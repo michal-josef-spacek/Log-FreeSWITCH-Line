@@ -8,4 +8,4 @@ use Test::More 'tests' => 2;
 use Test::NoWarnings;
 
 # Test.
-is($Log::FreeSWITCH::Line::Data::VERSION, undef, 'Version.');
+is($Log::FreeSWITCH::Line::Data::VERSION, 0.02, 'Version.');

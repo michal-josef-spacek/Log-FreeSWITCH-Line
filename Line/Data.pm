@@ -10,6 +10,9 @@ use Error::Pure::Always;
 use Error::Pure qw(err);
 use Mo qw(builder is required);
 
+# Version.
+our $VERSION = 0.02;
+
 has date => (
 	'is' => 'ro',
 	'required' => 1,
