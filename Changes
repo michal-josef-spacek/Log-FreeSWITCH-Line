@@ -1,6 +1,7 @@
 0.02
  [Log::FreeSWITCH::Line::Data]
  - Add missing VERSION.
+ - Add tests for constructor.
 
 0.01 2015-01-04T11:16:34+01:00
  - First version.

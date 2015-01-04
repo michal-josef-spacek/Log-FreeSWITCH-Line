@@ -23,6 +23,7 @@ t/Log-FreeSWITCH-Line-Data/00-use.t
 t/Log-FreeSWITCH-Line-Data/01-version.t
 t/Log-FreeSWITCH-Line-Data/02-pod_coverage.t
 t/Log-FreeSWITCH-Line-Data/03-pod.t
+t/Log-FreeSWITCH-Line-Data/04-new.t
 t/Log-FreeSWITCH-Line/00-use.t
 t/Log-FreeSWITCH-Line/01-version.t
 t/Log-FreeSWITCH-Line/02-pod_coverage.t
