@@ -1,7 +1,7 @@
 TODO
 ====
 1. Doc.
-   Nezapomenout napsat do dokumentace, ze mam pristup na REGEXP.
+   Nezapomenout napsat do dokumentace, ze mam pristup na $LOG_REGEXP.
 2. Testy.
 4.
 
