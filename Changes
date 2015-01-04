@@ -2,6 +2,7 @@
  [Log::FreeSWITCH::Line::Data]
  - Add missing VERSION.
  - Add tests for constructor.
+ - Fix time without miliseconds.
 
 0.01 2015-01-04T11:16:34+01:00
  - First version.

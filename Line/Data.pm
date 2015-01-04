@@ -57,6 +57,9 @@ sub _datetime {
 	my ($year, $month, $day) = split m/-/ms, $self->date;
 	my ($hour, $min, $sec_mili) = split m/:/ms, $self->time;
 	my ($sec, $mili) = split m/\./ms, $sec_mili;
+	if (! defined $mili) {
+		$mili = 0;
+	}
 	my $dt = eval {
 		DateTime->new(
 			'year' => $year,
