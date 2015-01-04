@@ -6,6 +6,7 @@ use warnings;
 
 # Modules.
 use English;
+use Error::Pure::Always;
 use Error::Pure qw(err);
 use Mo qw(builder is required);
 

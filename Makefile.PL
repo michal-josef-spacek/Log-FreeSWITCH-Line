@@ -12,6 +12,7 @@ license 'bsd';
 name 'Log-FreeSWITCH-Line';
 readme_from 'Line.pm';
 requires 'Error::Pure' => 0.18;
+requires 'Error::Pure::Always' => 0.04;
 requires 'Mo' => 0;
 requires 'Readonly' => 0;
 requires 'Scalar::Util' => 0;

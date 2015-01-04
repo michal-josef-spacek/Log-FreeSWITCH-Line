@@ -27,6 +27,7 @@ no_index:
     - t
 requires:
   Error::Pure: 0.18
+  Error::Pure::Always: 0.04
   Mo: 0
   Readonly: 0
   Scalar::Util: 0
