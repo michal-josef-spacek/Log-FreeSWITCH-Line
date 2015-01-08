@@ -1,4 +1,4 @@
-0.03
+0.03 2015-01-08T19:59:22+01:00
  [Common]
  - Fix dependencies, which breaks tests (bad Error::Pure::Always).
 
