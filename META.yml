@@ -38,4 +38,4 @@ resources:
   homepage: https://github.com/tupinek/Log-FreeSWITCH-Line
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/tupinek/Log-FreeSWITCH-Line
-version: '0.02'
+version: '0.03'
