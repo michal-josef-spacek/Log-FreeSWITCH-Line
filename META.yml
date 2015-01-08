@@ -4,7 +4,7 @@ author:
   - 'Michal Spacek <skim@cpan.org>'
 build_requires:
   English: 0
-  Error::Pure::Utils: 0.16
+  Error::Pure::Utils: 0.22
   ExtUtils::MakeMaker: 6.36
   File::Object: 0.07
   Test::More: 0
@@ -27,8 +27,8 @@ no_index:
     - inc
     - t
 requires:
-  Error::Pure: 0.18
-  Error::Pure::Always: 0.04
+  Error::Pure: 0.22
+  Error::Pure::Always: 0.05
   Mo: 0
   Readonly: 0
   Scalar::Util: 0
