@@ -1,4 +1,4 @@
-0.04
+0.04 2015-01-09T07:42:44+01:00
  [Log::FreeSWITCH::Line::Data]
  - Fix test dependency for DateTime module.
 
