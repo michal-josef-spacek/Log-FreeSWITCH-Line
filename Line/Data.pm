@@ -11,7 +11,7 @@ use Error::Pure qw(err);
 use Mo qw(builder is required);
 
 # Version.
-our $VERSION = 0.04;
+our $VERSION = 0.05;
 
 has date => (
 	'is' => 'ro',
@@ -261,6 +261,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.04
+0.05
 
 =cut
