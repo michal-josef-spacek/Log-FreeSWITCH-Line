@@ -3,6 +3,7 @@ TODO
 1. Doc.
    Nezapomenout napsat do dokumentace, ze mam pristup na $LOG_REGEXP.
 2. Testy.
+datetime_obj() testovat na nepritomnost objektu
 4.
 
 Applied
