@@ -21,6 +21,7 @@ resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Log-FreeSWITCH-Line';
 resources 'homepage' => 'https://github.com/tupinek/Log-FreeSWITCH-Line';
 resources 'repository' => 'git://github.com/tupinek/Log-FreeSWITCH-Line';
+test_requires 'DateTime' => 0;
 test_requires 'English' => 0;
 test_requires 'Error::Pure::Utils' => 0.22;
 test_requires 'File::Object' => 0.07;
