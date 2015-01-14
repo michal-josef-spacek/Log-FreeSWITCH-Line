@@ -1,5 +1,6 @@
 0.05
  [Log::FreeSWITCH::Line]
+ - Add tests.
  - Improve parse() subroutine to parse time without miliseconds.
  - Remove warning in serialize() with data object without message.
 

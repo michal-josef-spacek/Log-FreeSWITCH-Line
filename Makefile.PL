@@ -25,6 +25,7 @@ test_requires 'DateTime' => 0;
 test_requires 'English' => 0;
 test_requires 'Error::Pure::Utils' => 0.22;
 test_requires 'File::Object' => 0.07;
+test_requires 'Test::MockObject' => 0;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
 test_requires 'Test::Pod' => 0;

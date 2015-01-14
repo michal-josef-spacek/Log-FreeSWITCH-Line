@@ -36,3 +36,5 @@ t/Log-FreeSWITCH-Line/00-use.t
 t/Log-FreeSWITCH-Line/01-version.t
 t/Log-FreeSWITCH-Line/02-pod_coverage.t
 t/Log-FreeSWITCH-Line/03-pod.t
+t/Log-FreeSWITCH-Line/04-parse.t
+t/Log-FreeSWITCH-Line/05-serialize.t
