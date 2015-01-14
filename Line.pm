@@ -13,7 +13,7 @@ use Scalar::Util qw(blessed);
 
 # Constants.
 Readonly::Array our @EXPORT_OK => qw{parse serialize};
-Readonly::Scalar our $LOG_REGEXP => qr{(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.\d+)\s+\[(\w+)\]\s+([^:]+):(\d+)\s+(.*)};
+Readonly::Scalar our $LOG_REGEXP => qr{(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.?\d*)\s+\[(\w+)\]\s+([^:]+):(\d+)\s+(.*)};
 Readonly::Scalar our $SPACE => q{ };
 
 # Version.
