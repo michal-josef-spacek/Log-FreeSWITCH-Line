@@ -1,4 +1,6 @@
 0.05
+ [Log::FreeSWITCH::Line]
+ - Remove warning in serialize() with data object without message.
 
 0.04 2015-01-09T07:42:44+01:00
  [Log::FreeSWITCH::Line::Data]

@@ -54,7 +54,10 @@ sub serialize {
 		$SPACE.$data_o->time.
 		$SPACE.'['.$data_o->type.']'.
 		$SPACE.$data_o->file.':'.$data_o->file_line.
-		$SPACE.$data_o->message;
+		$SPACE;
+	if (defined $data_o->message) {
+		$data .= $data_o->message;
+	}
 	$data_o->raw($data);
 	return $data;
 }
