@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.70.
+signed via the Module::Signature module, version 0.79.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,28 +14,28 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 398c72c7f0e860622c1c082552ea5949d8ffe118 Changes
+SHA1 29052ab8aef0d0041d2a64d3e6939366f3562d8f Changes
 SHA1 507a10efa92555ddddfbe72be27964d9e3eef80f LICENSE
-SHA1 35c6a0a38418e7a8699598f2fba27341f654185e Line.pm
-SHA1 af0ff9e1920bf467e51840dc799e56e0d8c61015 Line/Data.pm
-SHA1 74b5359f783c8e7e78cab9c9ea366ca6267418e9 MANIFEST
-SHA1 517cc4efa52b99bfd2617b66354f1a83a87c8f5b META.yml
-SHA1 fe956b6d40b59eebbac88c3edd6d0f58ec698fae Makefile.PL
-SHA1 0c98b54b956fdd20793a983341d68c1ef63eefd6 README
+SHA1 62aef851211322d2c204b394ddb53ed4e3821769 Line.pm
+SHA1 8ab86d9e280b3a16d577cd126b4a334369928ae3 Line/Data.pm
+SHA1 6e9c9700df1f2edc2abc430ecac60809cf25ab00 MANIFEST
+SHA1 be3411bd59ee2522fb1bd359ba64ddda2fe57f9f META.yml
+SHA1 e13562caf9edf84c7c58cc9d146d686fbe79a46f Makefile.PL
+SHA1 6283299b08735051d0354bd3339a98e5548885bf README
 SHA1 0f12aede8b6d2497b311721685744d0f958f9a36 examples/ex1.pl
 SHA1 c9569897dd97cc38174354be514ecaf9cb48ab1c examples/ex2.pl
 SHA1 a8c48b46e4c94a150b07154a015691cad7d22629 examples/ex3.pl
-SHA1 d2664c57b65686abbfbbe1e71229761625be4922 inc/Module/Install.pm
-SHA1 da41a8d9904f7b409b49a5f6c338d3eb305a2b4b inc/Module/Install/Base.pm
-SHA1 0db0afe19cd298abba248fa089e5525bd5ab3ab6 inc/Module/Install/Can.pm
-SHA1 e7152bfd5ca67d0e33f96d09c59d600bca5c1f15 inc/Module/Install/Fetch.pm
-SHA1 29ee1cb0dc262b00983e3a2f5cf00b538dff5069 inc/Module/Install/Makefile.pm
-SHA1 e963f80cfe255f16e55067d1feb6841cff3ed2fe inc/Module/Install/Metadata.pm
+SHA1 bce3c51bb369419603298064b78e14077b93af66 inc/Module/Install.pm
+SHA1 fe220f215f645500ce8f14ff5e19d9a28692af56 inc/Module/Install/Base.pm
+SHA1 b56ed8e42c600e08007d152cf0b1438a7c3b7f6e inc/Module/Install/Can.pm
+SHA1 99c531a17a67ce5250df2ae151cc48c80d914cde inc/Module/Install/Fetch.pm
+SHA1 76efdca3603159e0ae0e18f19fe72a0211a69529 inc/Module/Install/Makefile.pm
+SHA1 2e33e87882d60db3913da6284dd5295e5315e18a inc/Module/Install/Metadata.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
-SHA1 65a1f09af1f4f9e47a98b6b45667c328b1b2f9c0 inc/Module/Install/Win32.pm
-SHA1 f191c49475b3f51775180cd4f7e41e3bdab7f85a inc/Module/Install/WriteAll.pm
+SHA1 c830b819e61bda5eca077c6291293bba61b3b9f2 inc/Module/Install/Win32.pm
+SHA1 cb52b9d6f88d512d448a6f35ed0af0d1201a134b inc/Module/Install/WriteAll.pm
 SHA1 85d7f392970ea438981f4e41d410447e553ac4fe t/Log-FreeSWITCH-Line-Data/00-use.t
-SHA1 a50f7a1c2b0af21dd3c06a0b3bdc32c39a84bba7 t/Log-FreeSWITCH-Line-Data/01-version.t
+SHA1 e3117669aa930ab585b0feb209ab9f04c6134fa7 t/Log-FreeSWITCH-Line-Data/01-version.t
 SHA1 82b2688a7c014743251aaa54cee73d45fc931a31 t/Log-FreeSWITCH-Line-Data/02-pod_coverage.t
 SHA1 f38e5ef00c5e6ce2f605fe195a4d72a4ab61802c t/Log-FreeSWITCH-Line-Data/03-pod.t
 SHA1 278aa208bfe0512186c927a0b761f2ab58b197cb t/Log-FreeSWITCH-Line-Data/04-new.t
@@ -48,17 +48,19 @@ SHA1 5f14bc18cb03d7221cb4d539325dfa8254278286 t/Log-FreeSWITCH-Line-Data/10-raw.
 SHA1 c2e02cd6aa43bd559e0bad7711559cdcc033ed6d t/Log-FreeSWITCH-Line-Data/11-time.t
 SHA1 e1ecd122ed33fefda6eceab3ce064b30b25fb324 t/Log-FreeSWITCH-Line-Data/12-type.t
 SHA1 438f318512ea90a65de4345245427b76cc50271f t/Log-FreeSWITCH-Line/00-use.t
-SHA1 31efea8092632953a7e98c4070fc4fa975f6ba10 t/Log-FreeSWITCH-Line/01-version.t
+SHA1 75d29d3a5666ad38d7085f2888dd8049c2aa09c0 t/Log-FreeSWITCH-Line/01-version.t
 SHA1 d0dcff47918c9475b4cd92082c6d8483dbac0137 t/Log-FreeSWITCH-Line/02-pod_coverage.t
 SHA1 dc28e3c936a6274c2debfb1d2fcbca5addcf2221 t/Log-FreeSWITCH-Line/03-pod.t
+SHA1 f1445bf372958f13e8c014b38ec82ecf6c74cce2 t/Log-FreeSWITCH-Line/04-parse.t
+SHA1 77f96c3a92f2129661dee195fe98715836e98305 t/Log-FreeSWITCH-Line/05-serialize.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.12 (GNU/Linux)
+Version: GnuPG v1
 
-iQEcBAEBAgAGBQJUr3hmAAoJEJe+XXKaIuTlBc4H/RyTnsXzZPB7V3FcAWze6TEM
-dQ+tHlneL9IowjBy664jKciDobKdpB3T8O0BaE16TuU9kY+wAZbIiavZxtafYNCt
-c3eQldur5TFHQ2eWLRGerYGl4OOXlF1aXzpR9WxeRed+eTRxTFyfQYOBUYqCQkpu
-6Da1QPJSknjvUEKWmJJQT8wjmEfBOfsvtqi4mHtNuEpAp2esxeRs7fOqgFZaIrEy
-uAw6jzT22/WYUW+1VxB81sgJHgbamoGyYwaI9LActZ3v67TquZunZBCYtitKaCtM
-q6cWBTzKuKx7poDx9GlwGLVQFO0DRw3OgReDwG9kIuTeTc+LPflTBKAMHZp6qOo=
-=vg43
+iQEcBAEBAgAGBQJVW1ByAAoJEJe+XXKaIuTlEz0H/3Hk2PFd/zXCQkCVtI7Tz8Df
+7btAVDSwRV/pFiik6N+kFLogy9aub8PYSMXhCUzdJ1lYpJzHU9ZRJmhVS7vMrCGC
+jpiJzu9pqbFCpRYGNFHRShktJ0PAYnRNCsZzxHLKbkQvMrSGvBVyf5yw2HWYXDZb
+M60Srky5kF+VdQ8P0S/V7rkNplUJpyg/XRf++7nx37Wz/CeH0VUdLckEfXJBhkrA
+nZu5CMWwLktT86hNQiTAEAz7EEkxaa0z/INya2+hzOVA8O/tJkkXOwr1olqiYA7G
+OMk71ONsWKeCVJhJ050sbtJYhzEFvl7Qz9CnSvO7G0+kzzYnHW46gZ7rpeEfh4M=
+=L0Ua
 -----END PGP SIGNATURE-----
