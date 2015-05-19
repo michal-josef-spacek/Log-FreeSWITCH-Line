@@ -1,4 +1,7 @@
 0.05
+ [Common]
+ - Update Module::Install to 1.16 version.
+
  [Log::FreeSWITCH::Line]
  - Add tests.
  - Improve parse() subroutine to parse time without miliseconds.
