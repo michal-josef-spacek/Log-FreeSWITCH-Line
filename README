@@ -86,6 +86,10 @@ DEPENDENCIES
     Error::Pure, Exporter, Log::FreeSWITCH::Line::Data, Readonly,
     Scalar::Util.
 
+SEE ALSO
+    Log::FreeSWITCH::Line::Data
+        Data object which represents FreeSWITCH log line.
+
 REPOSITORY
     <https://github.com/tupinek/Log-FreeSWITCH-Line>
 

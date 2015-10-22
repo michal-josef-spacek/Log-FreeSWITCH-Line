@@ -174,6 +174,16 @@ L<Log::FreeSWITCH::Line::Data>,
 L<Readonly>,
 L<Scalar::Util>.
 
+=head1 SEE ALSO
+
+=over
+
+=item L<Log::FreeSWITCH::Line::Data>
+
+Data object which represents FreeSWITCH log line.
+
+=back
+
 =head1 REPOSITORY
 
 L<https://github.com/tupinek/Log-FreeSWITCH-Line>
