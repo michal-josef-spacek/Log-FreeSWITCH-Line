@@ -1,4 +1,6 @@
 0.06
+ [Common]
+ - Move author tests to xt/ directory.
 
 0.05 2015-05-19T17:02:04+02:00
  [Common]
