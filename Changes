@@ -5,6 +5,9 @@
  [Log::FreeSWITCH::Line]
  - Add SEE ALSO section to doc.
 
+ [Log::FreeSWITCH::Line::Data]
+ - Improve and fix SEE ALSO section in doc.
+
 0.05 2015-05-19T17:02:04+02:00
  [Common]
  - Update Module::Install to 1.16 version.

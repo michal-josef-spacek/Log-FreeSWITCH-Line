@@ -242,7 +242,13 @@ L<Mo>.
 
 =head1 SEE ALSO
 
-L<Log::FreeSWITCH::Line::Data>.
+=over
+
+=item L<Log::FreeSWITCH::Line>
+
+FreeSWITCH log line parsing and serializing.
+
+=back
 
 =head1 REPOSITORY
 
