@@ -17,7 +17,7 @@ Readonly::Scalar our $LOG_REGEXP => qr{(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\
 Readonly::Scalar our $SPACE => q{ };
 
 # Version.
-our $VERSION = 0.06;
+our $VERSION = 0.07;
 
 # Parse FreeSWITCH log line.
 sub parse {
@@ -201,6 +201,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.06
+0.07
 
 =cut
