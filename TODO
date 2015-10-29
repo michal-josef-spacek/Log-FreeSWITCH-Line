@@ -6,7 +6,8 @@ TODO
 datetime_obj() testovat na nepritomnost objektu
 4. Implementovat uuid jako moznost v log souboru.
    Jestli se uuid zobrazuje nebo ne, je dano konfiguraci logovaciho systemu.
-5.
+5. Proc je 'raw' v Log::FreeSWITCH::Line::Data metoda rw?
+6.
 
 Applied
 =======
