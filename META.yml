@@ -1,7 +1,7 @@
 ---
 abstract: 'FreeSWITCH log line processing.'
 author:
-  - 'Michal Spacek <skim@cpan.org>'
+  - 'Michal Josef Spacek <skim@cpan.org>'
 build_requires:
   DateTime: 0
   English: 0

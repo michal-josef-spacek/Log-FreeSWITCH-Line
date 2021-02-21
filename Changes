@@ -1,6 +1,7 @@
 0.07
  [Common]
  - Update Module::Install to 1.19 version.
+ - Update author name.
 
 0.06 2015-10-22T11:27:41+02:00
  [Common]
