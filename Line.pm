@@ -1,22 +1,18 @@
 package Log::FreeSWITCH::Line;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use warnings;
 
-# Modules.
 use Error::Pure qw(err);
 use Log::FreeSWITCH::Line::Data;
 use Readonly;
 use Scalar::Util qw(blessed);
 
-# Constants.
 Readonly::Array our @EXPORT_OK => qw{parse serialize};
 Readonly::Scalar our $LOG_REGEXP => qr{(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.?\d*)\s+\[(\w+)\]\s+([^:]+):(\d+)\s+(.*)};
 Readonly::Scalar our $SPACE => q{ };
 
-# Version.
 our $VERSION = 0.07;
 
 # Parse FreeSWITCH log line.
@@ -107,11 +103,9 @@ Log::FreeSWITCH::Line - FreeSWITCH log line parsing and serializing.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Module.
  use Data::Printer;
  use Log::FreeSWITCH::Line qw(parse);
 
@@ -142,11 +136,9 @@ Log::FreeSWITCH::Line - FreeSWITCH log line parsing and serializing.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Module.
  use Log::FreeSWITCH::Line qw(serialize);
  use Log::FreeSWITCH::Line::Data;
 

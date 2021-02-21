@@ -24,11 +24,9 @@ ERRORS
              Serialize object must be 'Log::FreeSWITCH::Line::Data' object.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Module.
      use Data::Printer;
      use Log::FreeSWITCH::Line qw(parse);
 
@@ -58,11 +56,9 @@ EXAMPLE1
      # }
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Module.
      use Log::FreeSWITCH::Line qw(serialize);
      use Log::FreeSWITCH::Line::Data;
 

@@ -1,16 +1,13 @@
 package Log::FreeSWITCH::Line::Data;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use English;
 use Error::Pure::Always;
 use Error::Pure qw(err);
 use Mo qw(builder is required);
 
-# Version.
 our $VERSION = 0.07;
 
 has date => (
@@ -209,11 +206,9 @@ Log::FreeSWITCH::Line::Data - Data object which represents FreeSWITCH log line.
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Module.
  use Log::FreeSWITCH::Line::Data;
 
  # Object.
