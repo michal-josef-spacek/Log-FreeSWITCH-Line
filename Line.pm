@@ -178,7 +178,7 @@ Data object which represents FreeSWITCH log line.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Log-FreeSWITCH-Line>
+L<https://github.com/michal-josef-spacek/Log-FreeSWITCH-Line>
 
 =head1 AUTHOR
 

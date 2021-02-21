@@ -247,7 +247,7 @@ FreeSWITCH log line parsing and serializing.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Log-FreeSWITCH-Line>
+L<https://github.com/michal-josef-spacek/Log-FreeSWITCH-Line>
 
 =head1 AUTHOR
 

@@ -87,7 +87,7 @@ SEE ALSO
         Data object which represents FreeSWITCH log line.
 
 REPOSITORY
-    <https://github.com/tupinek/Log-FreeSWITCH-Line>
+    <https://github.com/michal-josef-spacek/Log-FreeSWITCH-Line>
 
 AUTHOR
     Michal Josef Špaček <mailto:skim@cpan.org>
