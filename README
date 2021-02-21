@@ -3,6 +3,7 @@ NAME
 
 SYNOPSIS
      use Log::FreeSWITCH::Line qw(parse serialize);
+
      my $data_o = parse($data);
      my $data = serialize($data_o);
 

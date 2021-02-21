@@ -90,6 +90,7 @@ Log::FreeSWITCH::Line::Data - Data object which represents FreeSWITCH log line.
 =head1 SYNOPSIS
 
  use Log::FreeSWITCH::Line::Data;
+
  my $obj = Log::FreeSWITCH::Line::Data->new(%params);
  my $date = $obj->date;
  my $datetime_o = $obj->datetime_obj;

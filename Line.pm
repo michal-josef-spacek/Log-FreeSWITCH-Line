@@ -73,6 +73,7 @@ Log::FreeSWITCH::Line - FreeSWITCH log line parsing and serializing.
 =head1 SYNOPSIS
 
  use Log::FreeSWITCH::Line qw(parse serialize);
+
  my $data_o = parse($data);
  my $data = serialize($data_o);
 
