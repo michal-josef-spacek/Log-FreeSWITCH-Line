@@ -13,7 +13,7 @@ Readonly::Array our @EXPORT_OK => qw{parse serialize};
 Readonly::Scalar our $LOG_REGEXP => qr{(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2}:\d{2}\.?\d*)\s+\[(\w+)\]\s+([^:]+):(\d+)\s+(.*)};
 Readonly::Scalar our $SPACE => q{ };
 
-our $VERSION = 0.07;
+our $VERSION = 0.08;
 
 # Parse FreeSWITCH log line.
 sub parse {
@@ -195,6 +195,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.07
+0.08
 
 =cut

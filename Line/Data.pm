@@ -8,7 +8,7 @@ use Error::Pure::Always;
 use Error::Pure qw(err);
 use Mo qw(builder is required);
 
-our $VERSION = 0.07;
+our $VERSION = 0.08;
 
 has date => (
 	'is' => 'ro',
@@ -264,6 +264,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.07
+0.08
 
 =cut
