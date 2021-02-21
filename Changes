@@ -2,6 +2,7 @@
  [Common]
  - Fix bugtracker.
  - Fix use lib '.' in Makefile.PL.
+ - Improve LICENSE AND COPYRIGHT section in doc.
  - Update Module::Install to 1.19 version.
  - Update author github username.
  - Update author name.
