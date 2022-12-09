@@ -4,6 +4,9 @@
  - Rewrite doc to use =head2 sections.
  - Update copyright years.
 
+ [Log::FreeSWITCH::Line::Data]
+ - Add test with bad date.
+
 0.07 2021-02-21T15:39:45+01:00
  [Common]
  - Fix bugtracker.
