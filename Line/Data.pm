@@ -207,6 +207,8 @@ Log::FreeSWITCH::Line::Data - Data object which represents FreeSWITCH log line.
 
 =head1 EXAMPLE
 
+=for comment filename=log_line_data_object.pl
+
  use strict;
  use warnings;
 

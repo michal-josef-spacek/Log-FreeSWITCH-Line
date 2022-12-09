@@ -104,6 +104,8 @@ Log::FreeSWITCH::Line - FreeSWITCH log line parsing and serializing.
 
 =head1 EXAMPLE1
 
+=for comment filename=parse_log_line.pl
+
  use strict;
  use warnings;
 
@@ -136,6 +138,8 @@ Log::FreeSWITCH::Line - FreeSWITCH log line parsing and serializing.
  # }
 
 =head1 EXAMPLE2
+
+=for comment filename=serialize_log_structure.pl
 
  use strict;
  use warnings;
