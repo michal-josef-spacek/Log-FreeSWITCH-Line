@@ -1,6 +1,7 @@
 0.08
  [Common]
  - Rename example files to better names.
+ - Rewrite doc to use =head2 sections.
  - Update copyright years.
 
 0.07 2021-02-21T15:39:45+01:00

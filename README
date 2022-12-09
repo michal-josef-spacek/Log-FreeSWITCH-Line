@@ -8,13 +8,19 @@ SYNOPSIS
      my $data = serialize($data_o);
 
 SUBROUTINES
-    "parse($data)"
-             Parse FreeSWITCH log line.
-             Returns Log::FreeSWITCH::Line::Data object.
+  "parse"
+     my $data_o = parse($data);
 
-    "serialize($data_o)"
-             Serialize Log::FreeSWITCH::Line::Data object to FreeSWITCH log line.
-             Returns string.
+    Parse FreeSWITCH log line.
+
+    Returns Log::FreeSWITCH::Line::Data object.
+
+  "serialize"
+     my $data = serialize($data_o);
+
+    Serialize Log::FreeSWITCH::Line::Data object to FreeSWITCH log line.
+
+    Returns string.
 
 ERRORS
      parse():

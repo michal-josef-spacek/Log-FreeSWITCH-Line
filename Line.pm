@@ -79,19 +79,21 @@ Log::FreeSWITCH::Line - FreeSWITCH log line parsing and serializing.
 
 =head1 SUBROUTINES
 
-=over 8
+=head2 C<parse>
 
-=item C<parse($data)>
+ my $data_o = parse($data);
 
- Parse FreeSWITCH log line.
- Returns Log::FreeSWITCH::Line::Data object.
+Parse FreeSWITCH log line.
 
-=item C<serialize($data_o)>
+Returns Log::FreeSWITCH::Line::Data object.
 
- Serialize Log::FreeSWITCH::Line::Data object to FreeSWITCH log line.
- Returns string.
+=head2 C<serialize>
 
-=back
+ my $data = serialize($data_o);
+
+Serialize Log::FreeSWITCH::Line::Data object to FreeSWITCH log line.
+
+Returns string.
 
 =head1 ERRORS
 
