@@ -1,4 +1,6 @@
 0.09
+ [Common]
+ - Update Module::Install to 1.21 version.
 
 0.08 2022-12-09T20:11:29+01:00
  [Common]
